@@ -57,7 +57,7 @@ def print_time(func_name):
     print('Running %s function to compute 900!' % (func_name.__name__, ))
     answer = func_name(900)
     diff = get_time_diff_ms(start)
-    print('Execution taken: %f ms' % (diff, ))
+    print('Execution time: %f ms' % (diff, ))
 
 if __name__ == '__main__':
 
@@ -68,8 +68,8 @@ if __name__ == '__main__':
 # Results
 #
 # Running classic_factorial function to compute 900!
-# Execution taken: 1.060247 ms
+# Execution time: 1.060247 ms
 # Running bottom_up_factorial function to compute 900!
-# Execution taken: 0.600815 ms
+# Execution time: 0.600815 ms
 # Running top_down_factorial function to compute 900!
-# Execution taken: 0.008583 ms
+# Execution time: 0.008583 ms
