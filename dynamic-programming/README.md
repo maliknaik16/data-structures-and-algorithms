@@ -1,10 +1,14 @@
 
 # Dynamic Programming
 
+## Principle of Optimality
+
+A problem can be solved by taking sequence of decisions to get the optimal solution.
+
 ## Optimal Substructure Property
 
 It means that the optimal solution to the problem can be formulated from the optimal solution to smaller instances of the same problem.
-Example: `f(n) = f(n - 1) + f(n - 2)`. Problem of size n reduced to `n - 1` and `n - 2`.
+Example: `f(n) = f(n - 1) + f(n - 2)`. Problem of size `n` reduced to `n - 1` and `n - 2`.
 
 
 
