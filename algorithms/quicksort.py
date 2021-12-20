@@ -2,6 +2,9 @@
 def partition(arr, low, high):
     """
     Hoare's Partition with leftmost element as pivot.
+
+    Time Complexity: O(n)
+        Where, n = number of elements in the array/list.
     """
 
     # Get the leftmost element as pivot.
@@ -32,6 +35,12 @@ def partition(arr, low, high):
 
 
 def quicksort(arr, low, high):
+    """
+    Sorts the given array recursively using divide and conquery technique.
+
+    Time Complexity: O(n logn) in best-case, and O(n^2) in worst-case.
+        Where, n = number of elements in the array/list.
+    """
 
     if low < high:
 
