@@ -39,7 +39,7 @@ def unique_element_optimized(arr):
 if __name__ == '__main__':
 
     arr1 = [1, 3, 6, 9, 5, 2, 4]
-    arr2 = [7, 1, 8, 1, 8, 5,]
+    arr2 = [7, 1, 8, 1, 8, 5, 4]
 
     if unique_element(arr1):
         print('Elements are unique:', arr1)
@@ -55,4 +55,4 @@ if __name__ == '__main__':
 # ---
 #
 # Elements are unique: [1, 3, 6, 9, 5, 2, 4]
-# There are duplicates: [1, 1, 5, 7, 8, 8]
+# There are duplicates: [1, 1, 4, 5, 7, 8, 8]
