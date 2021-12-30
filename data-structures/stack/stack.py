@@ -42,14 +42,14 @@ class Stack:
         Returns whether the stack is empty or not.
         """
 
-        return self.top < 0
+        return self.top == 0
 
     def get_stack(self) -> list:
         """
         Returns the complete stack.
         """
 
-        return self.stack
+        return self.stack[::-1]
 
 if __name__ == '__main__':
 
@@ -73,9 +73,9 @@ if __name__ == '__main__':
 #
 # Pushing 2 onto the stack...
 # Pushing 3 onto the stack...
-# Stack Contents: [2, 3]
+# Stack Contents: [3, 2]
 # Top of the stack: 3
 # Popping top element...
 # Stack Contents: [2]
 # Pushing 1 onto the stack...
-# Stack Contents: [2, 1]
+# Stack Contents: [1, 2]
