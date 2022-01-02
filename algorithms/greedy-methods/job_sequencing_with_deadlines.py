@@ -34,7 +34,7 @@ def job_sequencing_with_deadlines(profits, deadlines):
     Returns the maximum selected jobs and maximum profit from the given list of
     profits and deadlines.
 
-    Time Complexity: O(n logn + nD)
+    Time Complexity: O(n logn + nD) ~= O(n logn)
         Where, n = No. of jobs
                D = Maximum deadline time.
     """
