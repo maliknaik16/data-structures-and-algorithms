@@ -1,6 +1,6 @@
 
 # Note: this file generates the centroids for optimizing the search space for
-#       the
+#       determining the zipcode when the latitude and logitude is provided.
 
 from shapely.geometry import Point
 from geopandas import GeoDataFrame
